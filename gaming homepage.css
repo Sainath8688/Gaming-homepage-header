@@ -1,0 +1,72 @@
+body{color:white;
+    background: url(gaming\ homepage.jpg);
+}
+li{
+    list-style:none;
+    cursor: pointer;
+}
+li:hover{
+    text-decoration: underline;
+}
+nav ul {
+    display:flex;
+    justify-content: flex-end; 
+}
+nav ul li{
+    margin:10px 25px;
+    font-size:17px;
+}
+.login{
+    width:80px;
+    height:40px;
+    border-radius: 40px;
+    background: orange;
+    cursor: pointer;
+    font-weight: 900;
+
+}
+.logo{
+    margin:-10px 0px 0px 50px ;
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+}
+.game-name{
+    font-family: cursive;
+    margin:-55px 0px 0px 120px;
+}
+blockquote{
+    margin:100px 0px 0px 40px;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h3{
+    margin:15px 0px 0px 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box{
+    display:flex;
+    margin:30px 0px 0px 5px;
+}
+.boost{
+    width:150px;
+    height:40px;
+    border-radius: 40px;
+    cursor:pointer;
+    background: orange;
+    margin:0px 30px;
+    font-weight: 900;
+}
+.credits{
+    width:150px;
+    height:40px;
+    border-radius: 40px;
+    cursor:pointer;
+    background: transparent;
+    color:white;
+    backdrop-filter: blur(20px);
+    font-weight: 900;
+}
+.credits:hover{
+    color:black;
+    background: orange;
